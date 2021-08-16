@@ -115,7 +115,7 @@ label {
 
 section {
   padding: 1.5rem 2rem;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   margin: 1rem 0;
   color: var(--white);
   line-height: 1.2;
@@ -205,7 +205,8 @@ section > header > .header-text {
   main {
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;
-    gap: 2%;
+    column-gap: 2%;
+    row-gap: 4%;
     grid-template-rows: 48% 48%;
   }
   .first-section {
@@ -235,7 +236,7 @@ section > header > .header-text {
     margin: 0;
   }
   .section-main h4 {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
   }
   .section-main p {
     font-size: 0.95;
