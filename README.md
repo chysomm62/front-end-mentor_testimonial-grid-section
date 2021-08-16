@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Frontend Mentor [Challenge Name Here .png)
 
 ### Links
 
