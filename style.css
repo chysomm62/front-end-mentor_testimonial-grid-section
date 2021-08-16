@@ -95,16 +95,38 @@ label {
 
 /* variable */
 :root {
-  --verylight-red: hsl(13, 100%, 72%);
-  --light-red: hsl(353, 100%, 62%);
-  --backlight-red: hsl(353, 100%, 62%);
-  --backVery-light-red: hsl(13, 100%, 72%);
+  --verydark_grayish-blue: hsl(217, 19%, 35%);
+  --Moderate-violet: hsl(263, 55%, 52%);
+  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --Light-gray: hsl(0, 0%, 81%);
   --white: hsl(0, 0%, 100%);
-  --white-snow: hsl(0, 4%, 90%);
-  --body-colo: hsl(207, 13%, 34%);
-  --dark-blue: hsl(237, 23%, 32%);
-  --Very-dark-grayblue: hsl(237, 17%, 21%);
-  --footer-background: hsl(240, 10%, 16%);
-  --footer-text: hsl(240, 2%, 79%);
-  --headers: hsl(208, 49%, 24%);
+  --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+.container {
+  background-color: var(--Light-grayish-blue);
+  padding: 3rem 1rem;
+}
+
+section {
+  padding: 2rem;
+  background-color: brown;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  color: var(--white);
+}
+
+section > header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+section > header > .header-image img {
+  max-width: 2rem;
+  border-radius: 50%;
+}
+
+section > header > .header-text {
+  padding: 1rem;
 }
